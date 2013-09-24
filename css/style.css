@@ -1,0 +1,205 @@
+/* #Basic
+================================================== */
+	
+	html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+	}									
+	
+	article, aside, figure, footer, header, hgroup, nav, section { display: block; }
+
+/* Responsive images and other embedded objects
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+   If this default setting for images is causing issues, you might want to replace it with a .responsive class instead. */
+	img,
+	object,
+	embed { max-width: 100%; }
+
+/* force a vertical scrollbar to prevent a jumpy page */
+	html { overflow-y: scroll; }
+
+.fl { float:left; }
+
+.fr { float:right; }
+
+.cl  { clear:left; }
+
+.cr  { clear:right; }
+
+.cb  { clear:both; }
+	
+/* #Typography
+================================================== */
+
+/* Links
+================================================== */
+
+a, a:visited  {
+	color: #325978; 
+	text-decoration: none; 
+}
+	
+a:hover, a:focus { 
+	color: #5e93bc; 
+}
+
+/* Site Styles
+================================================== */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.5;
+	word-spacing: 2px;
+	font-size: 18px;
+	background-color: #fefefe;
+	color: #3b3b3a;
+}
+
+h2 {
+	font-size: 29px;
+	font-weight: 400;
+	color: #325978;
+}
+
+div.center-container   { 
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header-section {
+	margin-top: 25px;	
+}
+
+#logo-holder {
+	float: left;
+}
+
+#nav { 
+	display: inline-block; 
+	list-style:none;
+	float: right;
+	padding-top: 10px;
+}
+
+#nav li {
+	float: left;
+	padding-left: 30px; 
+}
+
+#nav a { 
+	font-size: 16px; 
+}
+
+.donate-item {
+	background-color: #325978;
+	margin-left: 30px;
+	padding: 0 10px !important;
+}
+
+.donate-item a {
+	color: #fff;
+}
+
+.rounded {
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#main-section  {
+	margin-top: 25px;
+}
+
+#main-image {
+	border-top: 8px solid #919eb2;		
+}
+
+div.floating-text {
+	background: rgba(50, 89, 120, 0.65);
+	color: #fff;
+	height: 65px;
+	width: 200px;
+	z-index: 10;
+	position: relative;
+	margin-top: -110px;
+	margin-left: 20px;
+	padding: 0 20px;
+}
+
+div.floating-text span {
+	font-size: 40px;
+	font-weight: 300;
+}
+
+div.small-sep {
+	margin-bottom: 30px;
+}
+
+div.sep {
+	margin-top: 38px;
+	border-bottom: 8px solid #919eb2;
+	margin-bottom: 25px;
+}
+
+#sidebar-nav {
+	float: right;
+	width: 160px;
+}
+
+#sidebar-nav  div.section-name{
+	font-size: 15px;
+	font-weight: 600;
+	color: #78512f;
+}
+
+#sidebar-nav ul {
+	display: inline-block; 
+	list-style:none;
+}
+
+#sidebar-nav ul li a {
+	color: #78512f;
+	font-size: 15px;
+}
+
+#sidebar-nav ul li a:hover{
+	color: #3b2411;
+}
+
+#main-content {
+	float: left;
+	width: 740px;
+	margin-bottom: 30px;
+}
+
+#main-content p {
+	margin-bottom: 6px;
+	margin-top: 12px;
+	
+}
+
+#footer-section {
+	background-color: #e7ebee;
+	height: 36px;
+	padding: 24px 0;
+}
+
+p.copyright { 
+	color: #99a8b6;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	text-align: right;
+	float: right;
+	margin: 0 0 20px 0;
+	
+}
+
+
